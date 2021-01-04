@@ -64,3 +64,8 @@
     border-radius: 1rem;
     color: #fff;
 }
+
+/* Footer color */
+.footer-color{
+    background-color: #264653;
+}
