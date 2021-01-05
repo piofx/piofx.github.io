@@ -3,6 +3,11 @@
     position: fixed;
 }
 
+/* Remove bottom padding in navigation in mobile view */
+.navbar-nav{
+    margin-bottom: 0rem !important;
+}
+
 /* Background color and other properties for hero section */
 .hero_section{
     background-color: #bcf0f750;
