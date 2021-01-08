@@ -1,35 +1,59 @@
-:root {
-  --gray-dark: #71869d;
-  --orange: #fd7e14;
-  --white: #fff;
-  --gray: #8c98a4;
-}
-
 body {
   overflow-x: hidden;
 }
+/* oet buttons */
+.oet_start_now1 {
+  padding: 12px;
+  background: transparent;
+  border: 2px solid black;
+  letter-spacing: 1px;
+  color: black;
+}
+.oet_start_now1:hover {
+  color: #fff;
+  background: #000;
+  border-radius: 15px;
+  transition: 0.3s ease-in;
+}
+.oet_start_now2 {
+  padding: 12px;
+  background: transparent;
+  border: 2px solid #fff;
+  letter-spacing: 1px;
+  color: #fff;
+}
+.oet_start_now2:hover {
+  color: #fff;
+  background: #000;
+  border-radius: 12px;
+  transition: 0.3s ease-in;
+  border: #000;
+}
 
-.d-block h1 {
-  color: #ffa500 !important;
+/* Change image from black and white to original colour on hover */
+.color_img {
+  cursor: pointer;
+  filter: grayscale(100%);
+  margin: 0.5rem 0rem;
 }
-.space-2 h2,
-.card_subhead h4,
-.card-footer a,
-.features {
-  color: orange !important;
+
+.color_img:hover {
+  filter: grayscale(0%);
+  transition: 0.5s ease;
+  margin-top: 0rem;
 }
-.h4_head h4 {
-  color: grey !important;
+/* Smaller Btn */
+.signup_btn {
+  padding: 0.5rem 1rem;
+  border: 2px solid #e24d4b;
+  border-radius: 0.5rem;
+  background-color: #e24d4b;
+  color: #fff;
 }
-.button a {
-  background-color: orange;
-  border: none;
-}
-.button a:hover {
-  background-color: rgb(253, 168, 10);
-}
-.d-block h1,
-.space-2 h2,
-.card_subhead h4 {
-  font-family: "Quattrocento", serif;
+
+.signup_btn:hover {
+  background-color: #fff;
+  border: 2px solid #e24d4b;
+  transition: 0.5s ease;
+  color: #e24d4b;
 }
