@@ -1,78 +1,84 @@
-.header{
-    background-color: #fff;
-    position: fixed;
+.header {
+  background-color: #fff;
+  position: fixed;
 }
 
 /* Remove bottom padding in navigation in mobile view */
-.navbar-nav{
-    margin-bottom: 0rem !important;
+.navbar-nav {
+  margin-bottom: 0rem !important;
 }
 
 /* Background color and other properties for hero section */
-.hero_section{
-    background-color: #bcf0f750;
+.hero_section {
+  background-color: #bcf0f750;
 }
 
 /* Change image from black and white to original colour on hover */
-.color_img{
-    cursor: pointer;
-    filter: grayscale(100%);
-    margin: 0.5rem 0rem;
+.color_img {
+  cursor: pointer;
+  filter: grayscale(100%);
+  margin: 0.5rem 0rem;
 }
 
-.color_img:hover{
-    filter: grayscale(0%);
-    transition: 0.5s ease;
-    margin-top: 0rem;
+.color_img:hover {
+  filter: grayscale(0%);
+  transition: 0.5s ease;
+  margin-top: 0rem;
 }
 
 /* Button Effect */
-.color_btn{
-    padding: 0.7rem 1.5rem;
-    border: 2px solid #000;
-    color: #000;
+.color_btn {
+  padding: 0.7rem 1.5rem;
+  border: 2px solid #000;
+  color: #000;
 }
 
-.color_btn:hover{
-    background-color: #000;
-    transition: 0.5s ease;
-    border-radius: 1rem;
-    color: #fff;
+.color_btn:hover {
+  background-color: #000;
+  transition: 0.5s ease;
+  border-radius: 1rem;
+  color: #fff;
 }
 
-.banner{
-    background-color: #bcf0f750;
-    padding: 2rem;
-    border-radius: 0.5rem;
+.banner {
+  background-color: #bcf0f750;
+  padding: 2rem;
+  border-radius: 0.5rem;
 }
 
 /* Background color and other properties for features section */
-.features_section{
-    background-color: #fdedf1;
+.features_section {
+  background-color: #fdedf1;
 }
 
 /* Color for icons */
-.color_icon{
-    color: #fc7d9c;
+.color_icon {
+  color: #fc7d9c;
 }
 
 /* Smaller Btn */
-.signup_btn{
-    padding: 0.5rem 1rem;
-    border: 2px solid #e24d4b;
-    border-radius: 0.5rem;
-    background-color: #e24d4b;
-    color: #fff;
+.signup_btn {
+  padding: 0.5rem 1rem;
+  border: 2px solid #e24d4b;
+  border-radius: 0.5rem;
+  background-color: #e24d4b;
+  color: #fff;
 }
 
-.signup_btn:hover{
-    background-color: #fff;
-    border: 2px solid #e24d4b;
-    transition: 0.5s ease;
-    color: #e24d4b;
+.signup_btn:hover {
+  background-color: #fff;
+  border: 2px solid #e24d4b;
+  transition: 0.5s ease;
+  color: #e24d4b;
 }
 
 /* Footer color */
-.footer-color{
-    background-color: #2f575d;
+.footer-color {
+  background-color: #2f575d;
+}
+
+@media screen and (width: 448px) {
+  .price_section {
+    padding-top: 15px !important;
+  }
 }
