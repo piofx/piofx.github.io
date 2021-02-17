@@ -2,7 +2,9 @@
   background-color: #fff;
   position: fixed;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 /* Remove bottom padding in navigation in mobile view */
 .navbar-nav {
   margin-bottom: 0rem !important;
